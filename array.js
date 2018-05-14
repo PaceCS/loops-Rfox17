@@ -34,13 +34,24 @@ console.log('The maximum value is ' + max + ".");
 // The function sum will take in an array and log the sum of the array.
 function sum(inArray) {
 let sum = inArray[0]
-    for (let) {
+for (let i =1; i < inArray.length; i += 1) {
+    sum = sum +inArray[i]
+
+
+}
+console.log('The sum of the array is ' + sum + ".")
+
 }
 
 
 // The function average will take in an array and log the average of the values.
 function average(inArray) {
-
+let average = inArray[0]
+for (let i = 1; i < inArray.length; i += 1) {
+    average = average + inArray[i];
+}
+average = average / inArray.length
+console.log('The average of the array is ' + average + ".")
 }
 
 
